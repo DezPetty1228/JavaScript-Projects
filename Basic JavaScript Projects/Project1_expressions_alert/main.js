@@ -8,3 +8,8 @@ function My_First_Function() {        //Defining a Function and naming it
     var str = "This is the button text!"; //Defining a Variable and giving it a string value
     document.getElementById("Button_Text") .innerHTML = str; //puting the value of the variable into the HTML elementFromPoint // with the "Button_Text" id
 }
+function myFunction() { //Defines Function 
+    var sentence ="I am Learning"; // Defines Variable, and gives it a string value
+    sentence += "a lot from this book!"; // Concatenates a string
+    document.getElementById("Concatenate").innerHTML = sentence; // creates an Elements Id
+}
