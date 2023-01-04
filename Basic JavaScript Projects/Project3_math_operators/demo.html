@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+</head>
+<body>  
+    <!doctype html>
+    <html>
+       <head>
+          <script>
+             function add()
+             {
+               var num1, num2, sum;
+               num1 = parseInt(document.getElementById("firstnumber").value);
+               num2 = parseInt(document.getElementById("secondnumber").value);
+               sum = num1 + num2;
+               document.getElementById("plus").value = sum;
+             }
+            function subtract() {
+                var num3, num4, dif;
+                num3 = parseInt(document.getElementById("number3").value);
+                num4 = parseInt(document.getElementById("number4").value);
+                difference = num3 - num4;
+                document.getElementById("less").value = difference;
+          }
+            function multiply() {
+                var num5, num6, product;
+                num5 = parseInt(document.getElementById("number5").value);
+                num6 = parseInt(document.getElementById("number6").value);
+                product = num5 * num6;
+                document.getElementById("multi").value = product;
+           }
+           function divide() {
+                var num7, num8, quotient;
+                num7 = parseInt(document.getElementById("number7").value);
+                num8 = parseInt(document.getElementById("number8").value);
+                quotient = num7 / num8;
+                document.getElementById("divi").value = quotient;
+           }
+           functi
+          </script>
+       </head>
+       <body>
+        <H2>This is an Addition Function</H2>
+          <p>First Number: <input id="firstnumber"></p>
+          <p>Second Number: <input id="secondnumber"></p>
+          <button onclick="add()">Add Them</button>
+          <p>Sum = <input id="plus"></p>
+         
+       <h2>This is a Subtraction Function</h2>
+            <p>first number : <input id ="number3"></p>
+            <p>Second Number: <input id="number4"></p>
+             <button onclick="subtract()">Subtract Them</button>
+             <p>difference = <input id="less"></p>
+
+        <h2>This is a Multiplication Function</h2>
+             <p>first number : <input id ="number5"></p>
+             <p>Second Number: <input id="number6"></p>
+              <button onclick="multiply()">multiply Them</button>
+              <p>product  = <input id="multi"></p>
+
+        <h2>This is a Division Function</h2>
+              <p>first number : <input id ="number7"></p>
+              <p>Second Number: <input id="number8"></p>
+               <button onclick="divide()">Divide Them</button>
+               <p>quotient  = <input id="divi"></p>
+       </body>
+    
+       function adds(num1, num2) { //Declares Function
+        let res = num1 + num2
+        return res;//defines result
+        document.getElementById("more").innerHTML = ;// asks http element to grab the addition function and use it to find the sum of 68 and 94
+    }
+    function subtract_Function(num1, num2){ //Creates Subtraction Function
+       let res = num1 - num2
+        return res; // defines results 
+        var Subtraction = S1 - S2 //Defines Variable amd gives it an operator
+        document.getElementById("less").innerHTML = "85 - 9 =" + subtraction_Function;
+    }
+    function multiplication() { //Creates and Defines multiplication function
+        var simple_Math = 6 * 8; // defines variable
+        document.getElementById("multi").innerHTML = "6 x 8 =" + simple_Math; // Calls function
+    }
+    function division() { //Creates and Defines Division function
+        var Divi = 48 / 6; // Defines variable
+        document.getElementById("div").innerHTML = "48 / 6 =" + Divi; // Cals Function into HTML
+    }
+    function more_Math () { // Defines Function
+        var simple_Math1 = (1+2) * 10 / 2 -5; // defines Variable
+        document.getElementById("M").innerHTML = "1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals " + simple_Math1;
+    }
+    function modulus_Operartor() { //Defines Function 
+        var simp_Math = 25 % 6;     // defines variable using Modulus Operator
+        document.getElementById("Math").innerHTML = "When you divide 25 by 6 you have a remainder of: " + simp_Math;
+    }
+    function negation_Operator() { //negation operator.” This returns the opposite or negative form of something.
+        var x = 10; //A “unary operator” is an operation that only contains a single operand.
+        document.getElementById("Math").innerHTML = -x;
+    }
+    var Q = 5;
+    Q++; //An increment is an addition or increase to something. “To increment” means to increase. The increment operator in JavaScript is written as ++ and counts one step up.
+    document.write(Q) //This would increment from 5 to 6.
+    var E = 5.25;
+    E--;// “decrease or reduce.” In computing, it means “to reduce by discrete (individually separate) amounts.
+    document.write(E); //This would show up as “4.25.”
+    window.alert(Math.random()); //To return a random number between 0 and 1, you would write the following JavaScript code:
+    window.alert(Math.random() * 100);//If you would like to have a random number displayed between ___ and ___ (such as between 0 and 100), you would write the following code:
+    
+    <p>This example calls my Addition function</p>
+<p id="more"></p>
+<script>
+    let x = 5;
+    let y = 39;
+    let z = x + y;
+document.getElementById("more").innerHTML = "5 added to 39 = " + z;
+</script>
+<p> This example calls my subtraction Function</p>
+<p id="less"></p>
+<script>
+    let a = 75;
+    let b = 96;
+    let c = b - a;
+document.getElementById("less").innerHTML = "96 subtracted by 75 = " + c;
+</script>
+<p> This Example calls my Multiplication Function</p>
+
+<p id="multi"></p>
+<script>
+    let t = 36:
+    let u = 212;
+    let k = t * u;
+    document.getElementById("multi").innerHTML = "36 multiplied by 212 = " + k;
+</script>
+
+    </html>
+    

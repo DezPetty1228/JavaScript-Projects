@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head><script src="main.js"></script> </head>
 <body>  
-<script src="main.js"></script>
-<p id="Math" onclick="mathAdd"></p>
-<Script>
-document.getElementById("Math").innerHTML = mathAdd(68, 94);
-document.getElementById("Math").innerHTML = subtract_Function(85,9);
-</Script>
+
+<H2>This is an Addition Function</H2>
+          <p>First Number: <input id="firstnumber"></p>
+          <p>Second Number: <input id="secondnumber"></p>
+          <button onclick="add()">Add Them</button>
+          <p>Sum = <input id="plus"></p>
+         
+       <h2>This is a Subtraction Function</h2>
+            <p>first number : <input id ="number3"></p>
+            <p>Second Number: <input id="number4"></p>
+             <button onclick="subtract()">Subtract Them</button>
+             <p>difference = <input id="less"></p>
+
+        <h2>This is a Multiplication Function</h2>
+             <p>first number : <input id ="number5"></p>
+             <p>Second Number: <input id="number6"></p>
+              <button onclick="multiply()">multiply Them</button>
+              <p>product  = <input id="multi"></p>
+
+        <h2>This is a Division Function</h2>
+              <p>first number : <input id ="number7"></p>
+              <p>Second Number: <input id="number8"></p>
+               <button onclick="divide()">Divide Them</button>
+               <p>quotient  = <input id="divi"></p>
+        <script>
+           function more_Math() { 
+            var simple_Math = (1+2) * 10 / 2 - 5;
+            document.getElementById("math").innerHTML = "1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals " + simple_Math;
+           }
+        </script>
 </body>
 </html>
