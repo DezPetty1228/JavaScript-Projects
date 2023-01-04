@@ -25,3 +25,13 @@ function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML =
     "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + "manufactured in " + Erik.Vehicle_Year;
 }
+// Nested Functions
+function count_Function() {
+    document.getElementById("Counting").innerHTML = count();
+    function count() {
+        var Starting_point = 9;
+        function Plus_one() {Starting_point += 1;}
+        Plus_one();
+        return Starting_point;
+        }
+    }
