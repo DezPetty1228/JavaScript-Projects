@@ -35,3 +35,4 @@ E--;// “decrease or reduce.” In computing, it means “to reduce by discrete
 document.write(E); //This would show up as “4.25.”
 window.alert(Math.random()); //To return a random number between 0 and 1, you would write the following JavaScript code:
 window.alert(Math.random() * 100);//If you would like to have a random number displayed between ___ and ___ (such as between 0 and 100), you would write the following code:
+
