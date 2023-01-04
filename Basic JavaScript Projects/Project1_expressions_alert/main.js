@@ -13,3 +13,10 @@ function myFunction() { //Defines Function
     sentence += "a lot from this book!"; // Concatenates a string
     document.getElementById("Concatenate").innerHTML = sentence; // creates an Elements Id
 }
+function yoFunction(p1, p2) {// defines yoFunction 
+    return p1 * p2; // explains results of function
+document.getElementById("fire").innerHTML = yoFunction(17, 43);}// Multiplies 17 and 43 using yoFunction
+function addition_Function() { //Created a function to add 2+2
+    var addition = 2+2;//Defines variable addition
+    document.getElementById("MATH").innerHTML = "2+2 = " + addition;// Calls MATH
+}
