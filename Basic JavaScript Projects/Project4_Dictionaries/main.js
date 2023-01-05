@@ -6,5 +6,5 @@ function my_Dictionary() {
         Sound: "Bark!"
     };
 delete Animal.Species;
-document.getElementById("dictionary").innerHTML = Animal.Breed;
+document.getElementById("dictionary").innerHTML = Animal.Species;
 }
