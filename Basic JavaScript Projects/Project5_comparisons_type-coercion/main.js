@@ -9,7 +9,7 @@ function not_Function1() {
     document.getElementById("Not").innerHTML = !(5 > 10);//This would return “True.”
 }
 function equal_Function () {
-    document.write(10 == 10);
+    document.getElementById("same");
 }
 
 
