@@ -6,7 +6,7 @@ function not_Function () {
     document.getElementById("Not").innerHTML = !(20 > 10);//This would return “False.”
 }
 function not_Function1() {
-    document.getElementById("Not").innerHTML = !(5 > 10);//This would return “True.”
+    document.getElementById("Not1").innerHTML = !(5 > 10);//This would return “True.”
 }
 function equal_Function () {
     document.getElementById("same");
@@ -14,7 +14,7 @@ function equal_Function () {
 
 
 
-ocument.getElementById("test").innerHTML = isNaN('This is a string'); //You can also check whether or not something is a number by using the isNaN() function.
+document.getElementById("test").innerHTML = isNaN('This is a string'); //You can also check whether or not something is a number by using the isNaN() function.
 //This would display the result “true” because 'This is a string' is not a number NAN=Not a Number
 document.getElementById("test").innerHTML = isNaN('007'); //This would result in “false” because 007 is a number.
 document.write(2E310); //To display “infinity” (higher than our maximum floating point number) we would write any number larger than 1.7976931348623157E308. For example:
