@@ -1,5 +1,5 @@
-function time_Function() {
-    var Time = new Date().getHours();
+function time_Function() { // defines Function
+    var Time = new Date().getHours(); //takes time from the computer
     var Reply;
     if (Time < 12 == Time > 0) {
         Reply = "It is morning time!";
