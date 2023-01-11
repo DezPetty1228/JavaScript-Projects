@@ -1,10 +1,11 @@
-function Age_Function() 
-    Age = document.getElementById("Age").ariaValueMax;
-    if (Age >= 18) { // checks if number entered is 18 or greater
-        Vote = "you are old enough to vote!"; // returns Message if greater than 18
+
+function Age_Function() {// Establishes Age function
+   var Age = document.getElementById("Age").value; // defines variable
+    if (Age >= 18) { // checks if age is more than 18
+        Vote = "You are old enough to vote!"; // returns message if old enough
     }
-    else { //if number that is entered that is less than 18   
-       Vote =  "you are not old enough to vote!"; // this message will be returned if number is any number that is less than 18
+    else { // checks for any number less than 18
+        Vote = "You are not old enough to vote!"; // Return messsage for 17 and lower
     }
     document.getElementById("How_old_are_you?").innerHTML = Vote;
 }
