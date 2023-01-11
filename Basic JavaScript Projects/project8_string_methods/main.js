@@ -1,8 +1,8 @@
-function full_Sentence() {
-    var part_1 = "I have";
-    var part_2 = "made this";
-    var part_3 = "into a complete";
-    var part_4 = "sentence.";
+function full_Sentence() { //identifies the dunction
+    var part_1 = "I have"; //defines var
+    var part_2 = "made this"; //defines variable
+    var part_3 = "into a complete"; // defines variable
+    var part_4 = "sentence."; // Definesa Variable
     var whole_sentence = part_1.concat(part_2, part_3, part_4);
     document.getElementById("Concatenate").innerHTML = whole_sentence;
 }
@@ -15,7 +15,7 @@ let text = "Hello World!";
 let result = text.toUpperCase();
 document.getElementById("demo").innerHTML = result;
 
-let text = "Mr. Blue has a blue house"
+let texts = "Mr. Blue has a blue house"
 let position = text.search("Blue");
 document.getElementById("Search").innerHTML = position;
 
