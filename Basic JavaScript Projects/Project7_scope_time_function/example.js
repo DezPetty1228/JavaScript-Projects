@@ -9,3 +9,12 @@ function Age_Function() {// Establishes Age function
     }
     document.getElementById("How_old_are_you?").innerHTML = Vote;
 }
+var X = 64;
+function Add_numbers_1() { // defines function
+    document.write(166 + X + "<br>");// specifies mathmatic operartion
+}
+function Add_numbers_2() {
+    document.write(X + 99);
+}
+Add_numbers_1(); // dispalys Function
+Add_numbers_2(); // dispalys Function
