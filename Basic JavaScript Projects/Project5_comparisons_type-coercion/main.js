@@ -1,5 +1,5 @@
 
-function my_Function2() {
+function my_Function2() {0
     document.getElementById("Test").innerHTML = 0/0; // Result would be NaN because you can't divide 0 by 0 
 }
 function not_Function () {
@@ -12,7 +12,16 @@ function equal_Function () {
     document.getElementById("same");
 }
 
-
+document.write(10 == 10);
+x = "Inglewood";
+y = "Inglewood";
+document.write(x === y);
+document.write(10 > 6);
+document.write(64 < 41);
+document.write(17 == 17 && 9 > 3);
+document.write(66 < 144 || 17 == 9);
+document.write("64" + 36);
+document.write(! 20 > 6);
 
 document.getElementById("test").innerHTML = isNaN('This is a string'); //You can also check whether or not something is a number by using the isNaN() function.
 //This would display the result “true” because 'This is a string' is not a number NAN=Not a Number
