@@ -10,7 +10,6 @@
 
  let text = "Inglewood"; // defines text 
 let length = text.length; // defines  length
-return (text.length);
 
 var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
 var Content = ""; // defines variable
