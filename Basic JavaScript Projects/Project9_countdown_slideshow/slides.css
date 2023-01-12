@@ -9,6 +9,28 @@ img {vertical-align: middle;}
     position: relative;
     margin: auto;
 }
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    background-color: aliceblue;
+}
+.prev:hover, .next:hover {
+    background-color: aliceblue;
+}
+
 
 .text {
     color: mediumslateblue;
@@ -28,6 +50,7 @@ img {vertical-align: middle;}
     top: 0;
 }
 .dot {
+    cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -37,7 +60,7 @@ img {vertical-align: middle;}
     transition: background-color 0.6s ease;
 }
 
-.active {
+.active, .dot:hover {
     background-color: #717171;
 }
 
