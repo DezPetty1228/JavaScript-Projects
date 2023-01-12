@@ -25,10 +25,10 @@ img {vertical-align: middle;}
 }
 .next {
     right: 0;
-    background-color: aliceblue;
+    background-color: #717171;
 }
 .prev:hover, .next:hover {
-    background-color: aliceblue;
+    background-color: #717171;
 }
 
 
