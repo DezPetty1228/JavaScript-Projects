@@ -1,15 +1,15 @@
 function countdown() {
-    var seconds = document.getElementById("Seconds").ariaValueMax;
+    var seconds = document.getElementById("seconds").value;
 
-    function tick() {
-        seconds = seconds -1;
-        TimeRanges.innerHTML = seconds;
+    function tick() { 
+        seconds = seconds - 1;
+        timer.innerHTML = seconds;
         var time = setTimeout(tick, 1000);
         if (seconds == -1) {
-            alert("Time is up");
+            alert("Time's Up!");
             clearTimeout(time);
-            TimeRanges.innerHTML = "";
-        }
+            timer.innerHTML = "";
+         }
     }
     tick();
 }
