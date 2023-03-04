@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<header>
+
+</header>
+<body>
+    <h1>JavaScript quick math  Functions</h1>
+
+    <p>This example calls a function which performs a calculation and returns the result:</p>
+    
+    <p id="math"></p>
+    <p id="demo"></p>
+    <script>
+    var x = myFunction(36, 3);
+    document.getElementById("math").innerHTML = x;
+    
+    function myFunction(a, b) {
+      return a * b;
+    }
+    let myFunction2 = (c, d) => c * d;
+document.getElementById("demo").innerHTML = myFunction2(36, 3);
+    </script> 
+</body>
+
+</html>
